@@ -13,7 +13,7 @@ body {
     width: 250px;
     height: 90px;
     background-color: #4aaaa5;
-    margin-left: 161px;
+    /* margin-left: 145px; */
     float: left;
 }
 
@@ -46,7 +46,13 @@ header {
     border-color: #cccccc;
     border-style: solid;
     height: 90px;
-    min-width: 960px;
+    width: 100%;
+}
+
+#header_container {
+    width: 960px;
+    margin: 0 auto;
+
 }
 
 header ul {
@@ -55,7 +61,7 @@ header ul {
     padding: 0;
     overflow: hidden;
     float: right;
-    margin-right: 135px;
+    /* margin-right: 140px; */
     line-height: 5;
 }
 
@@ -82,12 +88,12 @@ a:visited {
     color: #777777;
 }
 
-img.icons:hover  {
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
+img.icons:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 #thick {
@@ -97,16 +103,16 @@ img.icons:hover  {
     background-color: #cccccc;
 }
 
+.container {
+    margin: 0 auto;
+    clear: both;
+}
+
 .content {
-    /* margin: auto; */
-    margin-left: 155px;
-    margin-bottom: 50px;
-    width: 960px;
-    /* max-block-size: -50px;   */
     padding: 5px;
     margin-top: 35px;
-    min-height: calc(100vh - 315px);
-    clear: both;
+    min-height: calc(100vh - 215px);
+    width: 960px;
 }
 
 #about {
@@ -123,6 +129,7 @@ img.icons:hover  {
 #about h1 {
     margin-top: 15px;
 }
+
 #para {
     padding-top: 25px;
 }
@@ -247,11 +254,12 @@ button {
     border: none;
     text-decoration: none;
     font-size: 20px;
-
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #777777;
-  padding-left: 10px;
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #777777;
+    padding-left: 10px;
 }
 
 footer {
