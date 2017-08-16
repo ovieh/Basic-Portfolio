@@ -13,7 +13,11 @@ body {
     width: 250px;
     height: 90px;
     background-color: #4aaaa5;
+<<<<<<< HEAD
     /* margin-left: 145px; */
+=======
+    margin-left: 152px;
+>>>>>>> 9e11783c10d996725b277ff85adf3670c63979b2
     float: left;
 }
 
@@ -46,12 +50,16 @@ header {
     border-color: #cccccc;
     border-style: solid;
     height: 90px;
+<<<<<<< HEAD
     width: 100%;
 }
 
 #header_container {
     width: 960px;
     margin: 0 auto;
+=======
+    width: 100%
+>>>>>>> 9e11783c10d996725b277ff85adf3670c63979b2
 
 }
 
@@ -105,13 +113,22 @@ img.icons:hover {
 
 .container {
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+    /* margin-left: 155px; */
+    /* max-block-size: -50px;   */
+>>>>>>> 9e11783c10d996725b277ff85adf3670c63979b2
     clear: both;
 }
 
 .content {
     padding: 5px;
     margin-top: 35px;
+<<<<<<< HEAD
     min-height: calc(100vh - 215px);
+=======
+    min-height: calc(100vh - 315px);
+>>>>>>> 9e11783c10d996725b277ff85adf3670c63979b2
     width: 960px;
 }
 
